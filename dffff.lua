@@ -1,15 +1,15 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow( {
-	Name = "Sigma Skibidi Nigger"
-	LoadingTitle = "NIGGER69"
-	LoadingSubtitle = "Made by Big Nigger"
+	Name = "Sigma Skibidi Nigger",
+	LoadingTitle = "NIGGER69",
+	LoadingSubtitle = "Made by Big Nigger",
 	ConfigurationSaving = {
-		Enabled = true
+		Enabled = true,
 		FolderName = "nigger"
 		FileName = "niggerrr"
 	},
-	KeySystem = true
+	KeySystem = true,
 	KeySettings = {
 		Title = "NIGGER",
       	Subtitle = "Key System",

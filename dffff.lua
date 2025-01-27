@@ -6,8 +6,8 @@ local Window = Rayfield:CreateWindow( {
 	LoadingSubtitle = "Made by Big Nigger",
 	ConfigurationSaving = {
 		Enabled = true,
-		FolderName = "nigger"
-		FileName = "niggerrr"
+		FolderName = "nigger",
+		FileName = "niggerrr",
 	},
 	KeySystem = true,
 	KeySettings = {

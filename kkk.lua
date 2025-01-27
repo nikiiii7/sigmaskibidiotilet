@@ -30,8 +30,6 @@ MovementTab:CreateSlider({
 	CurrentValue = 16,
 	Callback = function(Value)
 		local player = game.Players.LocalPlayer
-		if player and player.Character and player.Characted:FindFirstChild("Humanoid") then
-			player.Character.Humanoid.WalkSpeed = Value
-		end
+		player.Character.Humanoid.WalkSpeed = Value
 	end
 })
